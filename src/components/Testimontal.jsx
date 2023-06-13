@@ -1,6 +1,7 @@
 import React from "react";
+import Image from 'next/image';
 
-const Testimontal = () => {
+const Testimonial = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
@@ -21,14 +22,16 @@ const Testimontal = () => {
                 </svg>
                 <p className="leading-relaxed mb-6">
                   Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
+                  carry neutra before they sold out fixie 90&apos;s microdosing.
                   Tacos pinterest fanny pack venmo, post-ironic heirloom
                   try-hard pabst authentic iceland.
                 </p>
                 <a className="inline-flex items-center">
-                  <img
+                  <Image
                     alt="testimonial"
                     src="https://dummyimage.com/106x106"
+                    width={106}
+                    height={106}
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
@@ -52,14 +55,16 @@ const Testimontal = () => {
                 </svg>
                 <p className="leading-relaxed mb-6">
                   Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
+                  carry neutra before they sold out fixie 90&apos;s microdosing.
                   Tacos pinterest fanny pack venmo, post-ironic heirloom
                   try-hard pabst authentic iceland.
                 </p>
                 <a className="inline-flex items-center">
-                  <img
+                  <Image
                     alt="testimonial"
                     src="https://dummyimage.com/107x107"
+                    width={107}
+                    height={107}
                     className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
@@ -78,4 +83,4 @@ const Testimontal = () => {
   );
 };
 
-export default Testimontal;
+export default Testimonial;

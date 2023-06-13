@@ -19,10 +19,10 @@ const furniture = () => {
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
               gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them man bun deep jianbing selfies heirloom.
+              haven&apos;t heard of them man bun deep jianbing selfies heirloom.
             </p>
           </div>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 justify-center">
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <div className="absolute inset-0 w-full h-full">
@@ -30,7 +30,8 @@ const furniture = () => {
                     alt="gallery"
                     className="w-full h-full object-cover object-center"
                     src="https://dummyimage.com/600x360"
-                    layout="fill"
+                    height={300}
+                    width={600}
                   />
                 </div>
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
